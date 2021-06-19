@@ -1,6 +1,6 @@
 # Robot-operating-system-installation-and-configuration-
 task one 
-Robot operating system installation and configuration steps after downloading virtual box and ubuntu i used these commands on the terminal to lunch ROS (Melodic) and the joint state publisher :
+Robot operating system installation and configuration steps after downloading virtual box and ubuntu i used these commands on the terminal to launch ROS (Melodic) and the joint state publisher :
 
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
