@@ -1,81 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<div lang="en">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head class="home" id="home">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+</div>
+
+
+
+
 <body>
-  <a  href="https://ibb.co/yyqMW74"><img class="center" src="https://i.ibb.co/yyqMW74/LOGOPIC.png" alt="LOGOPIC" border="0"></a>
-  <h1 id="rect"> Dana Almuhaideb</h1>
-      <p><em> computer science student in princess nora bint abdulrahman university intrested in web devolpment, AI, cyper security </em></p>
-  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-  <div class="heart"></div>
+  <nav class="topnav">
+    <a class="active" herf="#home">Home</a>
+    <a href="#form">Contact</a>
+    <a href="#about me">About me</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+  </nav>
+ 
   
+   <div class="back">
+  <a class="center"  href="https://ibb.co/g4t7rrX"><img src="https://i.ibb.co/g4t7rrX/Logo-4.png" alt="Logo-4" border="0" style="max-width:100%;height:auto;"></a>
+  <h1 > Dana Almuhaideb</h1>
+      <p  class="about me" id="about me"><em> computer science student in princess nora bint abdulrahman university intrested in web devolpment, AI, cyper security </em></p>
+    </div>
   <hr></hr>
-      <h2>Skills</h2>
-      <ul>
-        <li>Problem Solving</li>
-        <li>Critical Thinking</li>
-        <li>Working well in a team<li>
-  </ul>
-        <h3>Contact</h3>
+  <fieldset id="form">
+
+        <h2>Contact me</h2>
+  <form class="contact"  id="contact" id="survey-form">
+    <div class="form-group">
+    <label id="name-label" for"name">Name</label>
+      <input
+             type="text"
+             name="name"
+             class="form-control"
+             placeholder="Enter Your Full Name"
+             required>
+    </div>
+     <div class="form-group">
+    <label id="name-label" for"email">Email</label>
+      <input
+             type="email"
+             name="name"
+             class="form-control"
+             placeholder="Enter Your Email"
+             required>
+    </div>
+    
+  <div class="form-group">
+    <p>Message</p>
+    <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Write something here..."> 
+      </textarea>
+  </div>
+  <h3>Follow me </h3>
         
-        <a herf="https://www.linkedin.com/in/dana-almuhaideb-273934209"><u> LinkedIn</u></a>
-        <h3>Contact me</h3>
-      <form id="survey-form">
-        <div class="form-group">
-          <label id="name-lable" for"name">Name</label>
-          <input type="text" name="name" class="form-control" placeholder="enter your full name" required>
-        </div>
-        <div class="form-group">
-          <lable id="name-lable" for "email">Email</lable>
-          <input type="email" name="name" class="form-control" placeholder="enter your email" required>
-        </div>
-        <div class="form-group">
-          <p2>Country</p2>
-          <select id="dropdown"name"country"class="form=control" required>
-            <option disabled selected value> Country</option>
-            <option value="ksa">KSA</option>
-            <option value="usa">USA</option>
-            <option value="uk">UK</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-        <div class="form-group" >
-          <p2>Select Your Age</p2>
-          <lable>
-            <input name="age" value="18-25"
-                   type="radio" class="input-radio" checked>18-25 </lable>
-             <lable>
-            <input name="age" value="25-35"
-                   type="radio" class="input-radio" >25-35</lable>
-             <lable>
-            <input name="age" value="35-60"
-                   type="radio" class="input-radio" >35-60</lable>
-        </div>
-        <div class="form=group">
-          
-          <span class="clue">You want to learn (Check all that apply)</span>
-          </p>
-        <lable>
-          <input name="learn" value="HTML" type="checkbox" class="input-checkbox"checked >HTML</lable>
-          <lable>
-          <input name="learn" value="CSSL" type="checkbox" class="input-checkbox"checked>CSS</lable>
-          <lable>
-          <input name="learn" value="JavaScript" type="checkbox" class="input-checkbox"checked>JavaScript</lable>
-        </div>
-      <div class="form-group">
-        <p2>Message</p2>
-        <textarea id="comments" class="input-textarea" name="comment" placeholder="write somthing here...">
-        </textarea>
-        <ldiv>
-          <div class="form-group">
-            <button type="submit" id="submit" class="submit-button">
-              Submit</button>
-          </div>
-          </form> 
+  <a herf="https://www.linkedin.com/in/dana-almuhaideb-273934209"><u> LinkedIn</u></a>
+  </fieldset>
+  </form>
+  <footer>2022 dana almuhaideb</footer>
 </body>
 </html>
